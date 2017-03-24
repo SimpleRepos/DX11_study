@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{d0a8047f-aadd-44ef-a074-6610743cabfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Buffers">
+      <UniqueIdentifier>{120dc0b8-f78f-4f5c-a2a6-4f7080686a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Shaders">
+      <UniqueIdentifier>{346c329f-1093-467f-9ff9-2662cb458de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Misc">
+      <UniqueIdentifier>{51165b83-327e-4a58-a748-9d0a81e67b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{1ced915b-2aa0-4983-acd1-44795b017bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Buffers">
+      <UniqueIdentifier>{4ce461b3-64fe-4ac9-819a-7b6992fdf35a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Misc">
+      <UniqueIdentifier>{59f57a53-0b81-4792-ab3a-ec3202998e2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Shaders">
+      <UniqueIdentifier>{f6d53077-a2e5-4e6f-9ccf-ea8f9d5b7e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\General">
+      <UniqueIdentifier>{74c0fb96-ad41-418a-b777-a587ae0f6368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\General">
+      <UniqueIdentifier>{ab45736a-235e-4c6a-8883-836ac6112c62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Text">
+      <UniqueIdentifier>{35090f40-b30c-43cd-b8ad-e30a83ba3443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Text">
+      <UniqueIdentifier>{428bc6d8-38d9-4dce-a0bb-dcd33310fbe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene">
+      <UniqueIdentifier>{fc9e20ce-843e-4246-8c53-72d3ba00e489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{a986d48d-39f0-40e2-8460-d99289b32400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{1432067e-befc-4fa6-a9a2-e5595098184b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Vertex">
+      <UniqueIdentifier>{a4b804cd-a4a1-49b0-bcae-9202cfa18819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Pixel">
+      <UniqueIdentifier>{d7fb5688-548b-4b0c-b0a3-26a2be2338d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Geometry">
+      <UniqueIdentifier>{3c526dea-176c-4bf7-ab69-83e2708af5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Hull">
+      <UniqueIdentifier>{9a73cc5b-b7ab-409d-a608-f631e6ac4ae2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders\Domain">
+      <UniqueIdentifier>{d6dfbe35-b6a3-4493-9e35-c439d6cabdab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Scene_Tesselation">
+      <UniqueIdentifier>{ecc9eb90-5d8b-4273-bd7f-8d26a40491a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scene\Scene_Tesselation">
+      <UniqueIdentifier>{8e288e86-b912-487c-a6a9-909a9ea86b0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cl_Graphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Camera.cpp">
+      <Filter>Source Files\Graphics\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_IndexBuffer.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_PixelShader.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Texture.cpp">
+      <Filter>Source Files\Graphics\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_VertexShader.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="st_ColorF.cpp">
+      <Filter>Source Files\Graphics\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Game.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Timer.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_Window.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="ns_Utility.cpp">
+      <Filter>Source Files\General</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_ImageLoader.cpp">
+      <Filter>Source Files\Graphics\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="cl_Font.cpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_GeometryShader.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="vcl_Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_StaticVertexBuffer.cpp">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_GfxFactory.cpp">
+      <Filter>Source Files\Graphics\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="st_ShaderSet.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_HullShader.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_DomainShader.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_RasterizerState.cpp">
+      <Filter>Source Files\Graphics\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_PerlinGenerator.cpp">
+      <Filter>Source Files\Graphics\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_TerrainProgram.cpp">
+      <Filter>Source Files\Scene\Scene_Tesselation</Filter>
+    </ClCompile>
+    <ClCompile Include="cl_PlayerCharacter.cpp">
+      <Filter>Source Files\Scene\Scene_Tesselation</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Tessellation.cpp">
+      <Filter>Source Files\Scene\Scene_Tesselation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cl_VertexShader.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_PixelShader.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_IndexBuffer.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="tcl_ConstantBuffer.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Graphics.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="st_ColorF.h">
+      <Filter>Header Files\Graphics\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Camera.h">
+      <Filter>Header Files\Graphics\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Texture.h">
+      <Filter>Header Files\Graphics\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Game.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Timer.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Window.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="ns_Utility.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_ImageLoader.h">
+      <Filter>Header Files\Graphics\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_Font.h">
+      <Filter>Header Files\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="tcl_DynamicVertexBuffer.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_GeometryShader.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="vcl_Scene.h">
+      <Filter>Header Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="st_SharedState.h">
+      <Filter>Header Files\General</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_StaticVertexBuffer.h">
+      <Filter>Header Files\Graphics\Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="ns_Vertex.h">
+      <Filter>Header Files\Graphics\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_GfxFactory.h">
+      <Filter>Header Files\Graphics\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="st_ShaderSet.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_HullShader.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_DomainShader.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_RasterizerState.h">
+      <Filter>Header Files\Graphics\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_PerlinGenerator.h">
+      <Filter>Header Files\Graphics\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_PointSpriteProgram.h">
+      <Filter>Header Files\Scene\Scene_Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_TerrainProgram.h">
+      <Filter>Header Files\Scene\Scene_Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="cl_PlayerCharacter.h">
+      <Filter>Header Files\Scene\Scene_Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Tessellation.h">
+      <Filter>Header Files\Scene\Scene_Tesselation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tcl_ConstantBuffer.inl">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </None>
+    <None Include="tcl_DynamicVertexBuffer.inl">
+      <Filter>Source Files\Graphics\Buffers</Filter>
+    </None>
+    <None Include="cl_PointSpriteProgram.inl">
+      <Filter>Source Files\Scene\Scene_Tesselation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="PointSpriteVShader.hlsl">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="PointSpritePShader.hlsl">
+      <Filter>Resource Files\Shaders\Pixel</Filter>
+    </FxCompile>
+    <FxCompile Include="tessHShader.hlsl">
+      <Filter>Resource Files\Shaders\Hull</Filter>
+    </FxCompile>
+    <FxCompile Include="tessDShader.hlsl">
+      <Filter>Resource Files\Shaders\Domain</Filter>
+    </FxCompile>
+    <FxCompile Include="passthruPosOnlyVShader.hlsl">
+      <Filter>Resource Files\Shaders\Vertex</Filter>
+    </FxCompile>
+    <FxCompile Include="pointSpriteGShader.hlsl">
+      <Filter>Resource Files\Shaders\Geometry</Filter>
+    </FxCompile>
+    <FxCompile Include="colorByYVal.hlsl">
+      <Filter>Resource Files\Shaders\Pixel</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
